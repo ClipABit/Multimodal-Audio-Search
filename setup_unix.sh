@@ -26,11 +26,11 @@ echo
 echo "================================================"
 echo "Setup complete!"
 echo
-echo "To run the app:"
+echo "To run the dual pipeline audio search system:"
 echo "1. Open Terminal"
 echo "2. Navigate to this folder"  
 echo "3. Run: source audio_search_venv/bin/activate"
-echo "4. Run: streamlit run streamlit_app.py"
+echo "4. Run: python -m streamlit run audio_search.py --server.port 8527"
 echo
-echo "The app will open at http://localhost:8501"
+echo "The app will open at http://localhost:8527"
 echo "================================================"

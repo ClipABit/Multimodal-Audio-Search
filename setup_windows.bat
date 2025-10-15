@@ -25,12 +25,12 @@ echo.
 echo ============================================ 
 echo Setup complete! 
 echo.
-echo To run the app:
+echo To run the dual pipeline audio search system:
 echo 1. Open Command Prompt/PowerShell
 echo 2. Navigate to this folder
 echo 3. Run: audio_search_venv\Scripts\activate
-echo 4. Run: streamlit run streamlit_app.py
+echo 4. Run: audio_search_venv\Scripts\python.exe -m streamlit run audio_search.py --server.port 8527
 echo.
-echo The app will open at http://localhost:8501
+echo The app will open at http://localhost:8527
 echo ============================================
 pause
